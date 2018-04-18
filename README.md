@@ -4,10 +4,9 @@ Image for running readyapi through docker-image.
 
 Checks out a license from the license-server, then runs Readypi testrunner.
 Projects to run should be mounted in `/projects`
-Testrunner logs can be reached by mounting to `/ReadyAPI/logs`
 
 Example:
-```docker run -v /absolute-path-projects:/projects -v /absolute-path-logs:/ReadyAPI/logs -p 8081:8081 evryfs/readyapi```
+```docker run -v /absolute-path-projects:/projects -p 8081:8081 evryfs/readyapi```
 
 [![Anchore Image Overview](https://anchore.io/service/badges/image/2823116a2a622d3b13f9c726ee2d64b9bcfe51dc89faf9f2e774a5debf23d87c)](https://anchore.io/image/dockerhub/evryfs%2Freadyapi%3Amaster)
 ![Docker Automated build](https://img.shields.io/docker/automated/evryfs/readyapi.svg)
