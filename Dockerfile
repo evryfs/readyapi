@@ -1,6 +1,6 @@
 FROM java:8
 LABEL maintainer "Lars Tiedemann Thorsen <lars.thorsen@evry.com>"
-ENV READYAPI_VERSION=2.3.0 READYAPI_LICENSE_MANAGER_VERSION=1.2.2
+ENV READYAPI_VERSION=2.3.0 READYAPI_LICENSE_MANAGER_VERSION=1.2.2 LICENSE_SERVER=fslicense.evry.com:1099
 
 ADD run-readyAPI.sh run-readyAPI.sh
 

@@ -1,2 +1,2 @@
-echo 1 | java -jar ready-api-license-manager.jar -s fslicense.evry.com:1099 -c
+echo 1 | java -jar ready-api-license-manager.jar -s $LICENSE_SERVER -c
 ./ReadyAPI/bin/testrunner.sh /projects/*.xml
