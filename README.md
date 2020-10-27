@@ -1,3 +1,6 @@
+# Archived
+This repo is archived as smartbear provide readyapi images natively.
+
 # Description
   
 Image for running readyapi through docker-image.
